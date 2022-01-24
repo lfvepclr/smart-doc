@@ -32,6 +32,11 @@ import com.power.common.util.StringUtil;
 public enum FrameworkEnum {
 
     /**
+     * HSF
+     */
+    HSF("hsf", "com.power.doc.template.HsfDocBuildTemplate"),
+
+    /**
      * Apache Dubbo
      */
     DUBBO("dubbo", "com.power.doc.template.RpcDocBuildTemplate"),
